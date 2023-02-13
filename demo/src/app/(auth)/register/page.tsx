@@ -1,7 +1,7 @@
+import AuthForm from "@/components/AuthForm";
 import React from "react";
-
 const page = () => {
-  return <div>REGISTER</div>;
+  return <AuthForm mode="register" />;
 };
 
 export default page;
